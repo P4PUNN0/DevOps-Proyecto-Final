@@ -199,3 +199,81 @@
 .toggle-auth button:hover {
   text-decoration: underline;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .login-page {
+    padding: 1.5rem;
+  }
+
+  .login-container {
+    padding: 2.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .login-page {
+    padding: 1rem;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+
+  .login-container {
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+  }
+
+  .login-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+  }
+
+  .logo-icon {
+    font-size: 1.5rem;
+  }
+
+  .social-btn {
+    padding: 0.75rem;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .login-page {
+    padding: 0.75rem;
+    padding-top: 1.5rem;
+  }
+
+  .login-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .login-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .login-header p {
+    font-size: 0.9rem;
+  }
+
+  .social-buttons {
+    gap: 0.5rem;
+  }
+
+  .social-btn {
+    padding: 0.65rem;
+    font-size: 0.9rem;
+  }
+
+  .form-group input {
+    padding: 0.65rem 0.75rem;
+  }
+
+  .submit-btn {
+    padding: 0.75rem;
+  }
+}
